@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece - Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="contacto-page">
+    <header class="header">
+        <a href="index.html" class="inicio-button" title="Ir a la página de inicio">
+            <img src="img/sombrero_paja.jpg" alt="Inicio" class="sombrero-inicio">
+            <span>Inicio</span>
+        </a>
+        <nav class="navegacion" id="main-nav">
+            <ul>
+                <li><a href="arcos.html">Arcos</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="index.html" class="logo" title="Ir a la página de inicio">
+            <img src="img/one_piece_logo.jpg" alt="Logo One Piece" class="logo-img">
+        </a>
+        <button class="scroll-to-top" id="scroll-to-top" title="Ir al inicio de la página" aria-label="Ir al inicio">
+            <span>↑</span>
+        </button>
+        <button class="hamburger-button" id="hamburger-button" aria-label="Abrir menú">
+            <img src="img/sombrero_paja.jpg" alt="Menú" class="sombrero-img">
+        </button>
+    </header>
+
+    <main class="pagina-contenido">
+        <h1>Contacto</h1>
+        <form class="formulario-contacto" action="#" method="POST">
+            <div class="campo-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="campo-formulario">
+                <label for="red-social">Red Social (opcional):</label>
+                <input type="text" id="red-social" name="red-social">
+            </div>
+            <div class="campo-formulario">
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="6" required></textarea>
+            </div>
+            <div class="campo-formulario">
+                <label>Calificación de la serie:</label>
+                <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" required/><label for="star5" title="5 estrellas">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 estrellas">&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 estrellas">&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 estrellas">&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 estrella">&#9733;</label>
+                </div>
+            </div>
+            <button type="submit" class="boton-enviar">Enviar</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="legales">
+            <p>&copy; 2025 Sitio Fan de One Piece. Todos los derechos reservados.</p>
+        </div>
+        <div class="footer-iconos">
+            <a href="https://x.com/onepieceanime?lang=es" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1200px-X_logo_2023.svg.png" alt="X"></a>
+            <a href="https://www.instagram.com/toeianimationlatam/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/onepieceofficial/?locale=es_LA" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+            <a href="https://youtube.com/@ToeiAnimationOfficial" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube"></a>
+            <a href="https://www.crunchyroll.com/series/GRMG8ZQZR/one-piece?utm_medium=android&utm_source=share" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Crunchyroll_Logo.svg/1200px-Crunchyroll_Logo.svg.png" alt="Crunchyroll"></a>
+            <a href="https://www.netflix.com/es/title/80107103?s=a&trkid=13747225&trg=wha&vlang=es" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Netflix_2015_N_logo.svg/1200px-Netflix_2015_N_logo.svg.png" alt="Netflix"></a>
+        </div>
+    </footer>
+    <script src="js/main.js" defer></script>
+    <script src="js/scroll-to-top.js" defer></script>
+</body>
+</html>
