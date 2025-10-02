@@ -13,7 +13,7 @@ El objetivo fue aplicar conceptos de **HTML, CSS y JavaScript**, además de una 
 
 ##  Tecnologías utilizadas  
 - **HTML5** → estructura de la página.  
-- **CSS3** → diseño y estilos, con hojas separadas para galería e index.  
+- **CSS** → diseño y estilos, con hojas separadas para galería e index.  
 - **JavaScript** → interacción básica y dinamismo.  
 
 
